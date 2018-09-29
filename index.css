@@ -1,0 +1,48 @@
+*{
+  	margin: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#logo{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 200%;
+}
+.header{
+  background-color: black;
+}
+.header,a{
+  color: white;
+}
+
+/* responsiveness */
+
+
+@media all and (max-width: 480px) {
+
+  .header{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    padding-bottom: 8%;
+    /* color: white; */
+    /* border: 2px solid; */
+  }
+
+  ul{
+    margin-top: 2%;
+    position: absolute;
+    right: 0px;
+
+  }
+
+  li{
+    list-style-type: none;
+  }
+
+  a{
+    /* display: inline-flex; */
+    text-decoration: none;
+  }
+}
