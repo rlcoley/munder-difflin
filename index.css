@@ -24,6 +24,8 @@ html {
 /* responsiveness */
 /* Bouta be responsive af */
 
+/* Moblie Display */
+
 @media all and (max-width: 480px) {
 /* ____header_____ */
   .header{
@@ -113,22 +115,33 @@ html {
 
 
   /* ======= product section ======= */
-  .product h2{
+  .product{
+    padding-top: 10%;
+    background-color: black;
+    color: #B59E7A;
+    /* padding-bottom: 20%; */
+  }
+
+  .product h2, p{
     text-align: center;
   }
+
+  .product #last_text{
+    padding-bottom: 7%;
+  }
   .product_grid{
-    /* margin-left: 20px; */
+    /* padding-top: 20%; */
     grid-template-columns: 1fr 1fr;
     display: grid;
     grid-gap: 40px;
     padding: 3%;
     text-align: center;
+    padding-top: 10%;
+    padding-bottom: 15%;
   }
-
 
   .papers img{
     height: 100px;
-
   }
 
   /* 2by2 grid layout */
