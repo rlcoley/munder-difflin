@@ -6,6 +6,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.wrapper{
+  background-color: #B59E7A;
+}
+
 #logo{
   /* font-family: 'Shadows Into Light', cursive; */
   font-size: 200%;
@@ -26,6 +30,7 @@ html {
     grid-template-columns: 1fr 1fr;
     display: grid;
     padding-bottom: 13%;
+    /* position: fixed; */
     /* color: white; */
     /* border: 2px solid; */
   }
@@ -59,6 +64,7 @@ html {
 
   .name{
     height: 300px;
+    margin-bottom: 10px;
   }
 
 
@@ -74,16 +80,21 @@ html {
 /* ___about section___ */
 
   .about{
-    background-color: #B59E7A;
+    /* height: 900px; */
+    /* background-color: #B59E7A; */
   }
   .about h2{
     text-align: center;
   }
 
-   p{
-    padding: 10%;
-
-    /* background-color: pink; */
+   .about p{
+     margin-left: 10%;
+     width: 280px;
+     height: 200px;
+     padding: 7%;
+     border-radius: 15%;
+     background-color: white;
+     margin-bottom: 20px;
   }
 
 
@@ -100,7 +111,7 @@ html {
     display: grid; */
     /* border: 2px solid */
   }
-  
+
   .bottom_images{
     margin-left: 30px;
   }
