@@ -158,8 +158,42 @@ html {
   }
 
   .product_grid .color{
-    grid-column-start: 2 ;
+    grid-column-start: 2;
     grid-row-start: 2;
+  }
+
+  /* ===== testimonies section =====  */
+  .testimonies h3{
+    padding-top: 5%;
+    text-align: center;
+    padding-bottom: 5%
+
+  }
+
+  blockquote:before{
+    /* position: absolute; */
+    content: open-quote;
+    font-weight: bold;
+    font-size: 30px;
+
+  }
+
+  blockquote:after{
+    /* right: 0; */
+    content: close-quote;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 90%;
+    /* right: 0px; */
+  }
+
+  .testimony{
+    padding: 5%;
+  }
+
+  .four{
+    /* border: 2px solid; */
+    padding-bottom: 15%;
   }
 
 
