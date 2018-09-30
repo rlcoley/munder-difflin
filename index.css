@@ -241,5 +241,33 @@ html {
     margin-left: 35%;
   }
 
+}
 
+
+/* Tablet Display */
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .header{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    padding: 2%;
+    /* position: fixed; */
+    /* color: white; */
+    /* border: 2px solid; */
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  ul{
+    margin-top: 3%;
+    margin-left: 10%;
+  }
+
+  li{
+    margin-left: 5%;
+    display: inline;
+    list-style-type: none;
+  }
 }
