@@ -94,7 +94,7 @@ html {
   }
 
 
-  /* ____about images____ */
+  /*  ===== about images =====  */
 
   .top_images img, .bottom_images img{
     height: 70px;
@@ -272,7 +272,7 @@ html {
 
   /* ====== header ====== */
 
-  /* ====== name ====== */
+  /* ====== Name ====== */
   .name{
     height: 300px;
     margin-bottom: 10px;
@@ -283,5 +283,88 @@ html {
     text-align: center;
     font-family: 'Shadows Into Light', cursive;
   }
+
+      /* ===== About Us ===== */
+  .about{
+    padding-bottom: 50px;
+  }
+  .about h2{
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+  .about p{
+    margin-left: 12%;
+    width: 60%;
+    /* height: 150px; */
+    padding: 10%;
+    border-radius: 25%;
+    background-color: white;
+    margin-bottom: 20px;
+ }
+ .about_images{
+   margin-left: 220px;
+ }
+ .about_images .bottom_images{
+   margin-left: 50px;
+ }
+ .about img{
+   /* margin-left: 100px; */
+   height: 120px;
+   width: 120px;
+   border-radius: 50%;
+ }
+
+
+
+/* ======  product section ====== */
+
+ .product{
+   padding-top: 3%;
+   background-color: black;
+   color: #B59E7A;
+   /* padding-bottom: 20%; */
+ }
+
+ .product h2, .product p{
+   text-align: center;
+ }
+
+ .product h2{
+   font-family: 'Shadows Into Light', cursive;
+   font-size: 300%;
+ }
+
+ .product h3{
+   font-size: 200%
+ }
+
+ .product_grid{
+   /* padding-top: 20%; */
+   grid-template-columns: 1fr 1fr;
+   display: grid;
+   grid-gap: 40px;
+   padding: 3%;
+   text-align: center;
+   padding-top: 6%;
+   padding-bottom: 10%;
+ }
+
+ .product p{
+   font-size: 150%;
+   /* font-family: 'Shadows Into Light', cursive; */
+ }
+
+ .product #last_text{
+   padding-bottom: 5%;
+ }
+
+ .papers img{
+   height: 200px;
+ }
+
+
 
 }
