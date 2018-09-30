@@ -403,6 +403,70 @@ html {
    padding-bottom: 15%;
  }
 
+ /*  =====contact ===== */
 
+ .contact{
+   /* margin-top: 50px; */
+   padding-bottom: 20px;
+ }
+ .contact h2{
+   font-family: 'Shadows Into Light', cursive;
+   text-align: center;
+   font-size: 300%;
+ }
+
+ .contact p{
+   width: 40%;
+   text-align: center;
+   margin-left: 30%;
+   padding: 20px;
+ }
+
+ .form{
+   background-color: black;
+   color: #B59E7A;
+   width: 30%;
+   margin-left: 25%;
+   padding: 8%;
+   border-radius: 15%;
+ }
+
+ input{
+
+   margin-bottom: 15%;
+   margin-left: 30px;
+ }
+
+ .form span{
+   /* color: pink;  */
+   margin-left: 30px;
+ }
+
+ .form textarea{
+   /* margin-left: 45%; */
+ }
+
+  /* ====== footer section ======  */
+  .footer{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    padding-bottom: 2%;
+    color:  white;
+    background-color: black;
+  }
+  .footer #logo{
+    position: relative;
+    left: 20px;
+  }
+
+  .footer ul{
+    /* border: 2px solid white; */
+    margin-left: 70%;
+    margin-top: 5px;
+  }
+
+  .footer li{
+    display: block;
+  }
 
 }
