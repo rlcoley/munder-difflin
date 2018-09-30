@@ -21,7 +21,7 @@ html {
 
 
 @media all and (max-width: 480px) {
-
+/* ____header_____ */
   .header{
     grid-template-columns: 1fr 1fr;
     display: grid;
@@ -29,6 +29,10 @@ html {
     /* color: white; */
     /* border: 2px solid; */
   }
+
+
+
+  /* ____logo nd navbar____ */
 
   #logo{
     position: relative;
@@ -51,6 +55,8 @@ html {
     text-decoration: none;
   }
 
+/* ___name section___ */
+
   .name{
     height: 300px;
   }
@@ -63,5 +69,39 @@ html {
     text-align: center;
     /* border: 2px solid; */
     font-family: 'Shadows Into Light', cursive;
+  }
+
+/* ___about section___ */
+
+  .about{
+    background-color: #B59E7A;
+  }
+  .about h2{
+    text-align: center;
+  }
+
+   p{
+    padding: 10%;
+
+    /* background-color: pink; */
+  }
+
+
+  /* ____about images____ */
+
+  img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+  }
+  .about_images{
+    margin-left: 100px;
+    /* grid-column: 1fr 1fr 1fr;
+    display: grid; */
+    /* border: 2px solid */
+  }
+  
+  .bottom_images{
+    margin-left: 30px;
   }
 }
