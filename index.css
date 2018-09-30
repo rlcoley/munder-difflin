@@ -22,7 +22,7 @@ html {
 }
 
 /* responsiveness */
-
+/* Bouta be responsive af */
 
 @media all and (max-width: 480px) {
 /* ____header_____ */
@@ -35,9 +35,7 @@ html {
     /* border: 2px solid; */
   }
 
-
-
-  /* ____logo nd navbar____ */
+  /* ____logo and navbar____ */
 
   #logo{
     position: relative;
@@ -80,8 +78,7 @@ html {
 /* ___about section___ */
 
   .about{
-    /* height: 900px; */
-    /* background-color: #B59E7A; */
+    padding-bottom: 25px;
   }
   .about h2{
     text-align: center;
@@ -100,19 +97,57 @@ html {
 
   /* ____about images____ */
 
-  img{
+  .top_images img, .bottom_images img{
     height: 70px;
     width: 70px;
     border-radius: 50%;
   }
   .about_images{
     margin-left: 100px;
-    /* grid-column: 1fr 1fr 1fr;
-    display: grid; */
-    /* border: 2px solid */
   }
 
   .bottom_images{
-    margin-left: 30px;
+    margin-left: 35px;
   }
+
+
+
+  /* ======= product section ======= */
+  .product h2{
+    text-align: center;
+  }
+  .product_grid{
+    /* margin-left: 20px; */
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-gap: 40px;
+    padding: 3%;
+    text-align: center;
+  }
+
+
+  .papers img{
+    height: 100px;
+
+  }
+
+  /* 2by2 grid layout */
+  .product_grid .printed{
+    grid-row-start: 1;
+    /* grid-row-end: 3; */
+    /* border: 2px solid red; */
+
+  }
+
+  .product_grid .poster{
+    grid-column-start: 2;
+    grid-row-start: 1
+  }
+
+  .product_grid .color{
+    grid-column-start: 2 ;
+    grid-row-start: 2;
+  }
+
+
 }
