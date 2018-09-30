@@ -338,7 +338,7 @@ html {
  }
 
  .product h3{
-   font-size: 200%
+   font-size: 200%;
  }
 
  .product_grid{
@@ -363,6 +363,44 @@ html {
 
  .papers img{
    height: 200px;
+ }
+
+
+ /* ===== testimonies section =====  */
+ .testimonies h3{
+   padding-top: 5%;
+   text-align: center;
+   font-family: 'Shadows Into Light', cursive;
+   font-size: 200%;
+   /* padding-bottom: 5% */
+
+ }
+
+ blockquote:before{
+   /* position: absolute; */
+   content: open-quote;
+   font-weight: bold;
+   font-size: 30px;
+
+ }
+
+ blockquote:after{
+   /* right: 0; */
+   content: close-quote;
+   font-weight: bold;
+   font-size: 30px;
+   margin-left: 90%;
+   /* right: 0px; */
+ }
+
+ .testimony{
+   padding: 5%;
+   font-size: 120%;
+ }
+
+ .four{
+   /* border: 2px solid; */
+   padding-bottom: 15%;
  }
 
 
