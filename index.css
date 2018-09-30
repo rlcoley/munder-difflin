@@ -39,12 +39,12 @@ html {
 
   /* ____logo and navbar____ */
 
-  #logo{
+  .header #logo{
     position: relative;
     left: 10px;
   }
 
-  ul{
+  .header ul{
     margin-top: 2%;
     position: absolute;
     right: 10px;
@@ -194,6 +194,51 @@ html {
   .four{
     /* border: 2px solid; */
     padding-bottom: 15%;
+  }
+
+  /*  =====contact ===== */
+
+  .contact{
+    margin-top: 50px;
+    padding-bottom: 20px;
+  }
+  .contact h2{
+    text-align: center;
+  }
+  .form{
+    background-color: black;
+    color: #B59E7A;
+    width: 30%;
+    margin-top: 10%;
+    margin-left: 22%;
+    /* text-align: center; */
+    padding: 15%;
+    border-radius: 15%;
+    /* margin-bottom: 20px; */
+  }
+  input{
+    padding-bottom: 7%;
+    margin-bottom: 15%;
+  }
+
+  /* ==== footer ==== */
+
+  .footer{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    padding-bottom: 5%;
+    color:  white;
+
+
+  }
+
+  .footer{
+    background-color: black;
+  }
+
+  .footer ul{
+    /* border: 2px solid white; */
+    margin-left: 35%;
   }
 
 
