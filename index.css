@@ -69,11 +69,8 @@ html {
 
 
   h1{
-    /* margin-top: 50%; */
     padding: 20%;
-    /* border: 2px solid; */
     text-align: center;
-    /* border: 2px solid; */
     font-family: 'Shadows Into Light', cursive;
   }
 
@@ -247,6 +244,8 @@ html {
 /* Tablet Display */
 
 @media all and (min-width: 768px) and (max-width: 991px) {
+
+          /* ====== header ====== */
   .header{
     grid-template-columns: 1fr 1fr;
     display: grid;
@@ -270,4 +269,19 @@ html {
     display: inline;
     list-style-type: none;
   }
+
+  /* ====== header ====== */
+
+  /* ====== name ====== */
+  .name{
+    height: 300px;
+    margin-bottom: 10px;
+  }
+
+  h1{
+    padding: 15%;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+  }
+
 }
