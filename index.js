@@ -18,10 +18,3 @@ function typeWriter() {
 }
 
 window.addEventListener('load', typeWriter)
-
-
-
-// var michael = document.getElementsByTagName(img)[0]
-// michael.addEventListener('mouseover',function() {
-//   michael.style.height = "300px";
-// })
